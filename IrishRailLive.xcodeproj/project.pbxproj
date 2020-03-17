@@ -3,19 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		116E7D8388E23B40973303FF /* Pods_IrishRailLiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3324A1710C9B5754ED8209CF /* Pods_IrishRailLiveTests.framework */; };
+		C51AAD4324202AFE00161F3A /* Favourite.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD4224202AFE00161F3A /* Favourite.m */; };
+		C51AAD462420496E00161F3A /* UIStoryboard+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD452420496E00161F3A /* UIStoryboard+Utils.m */; };
+		C51AAD4924204E9800161F3A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD4824204E9800161F3A /* BaseViewController.m */; };
+		C51AAD4C24204F1400161F3A /* BaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD4B24204F1400161F3A /* BaseTableViewController.m */; };
+		C51AAD4F242050D100161F3A /* BaseChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD4E242050D100161F3A /* BaseChildViewController.m */; };
+		C51AAD522420545B00161F3A /* BaseChildTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD512420545B00161F3A /* BaseChildTableViewController.m */; };
+		C51AAD562420F28200161F3A /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C51AAD552420F28200161F3A /* SplashScreenViewController.m */; };
+		C552BB7C241EC7D800202903 /* TrainStop.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB7B241EC7D800202903 /* TrainStop.m */; };
+		C552BB82241ED5B900202903 /* CurrentTrainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB81241ED5B900202903 /* CurrentTrainCell.m */; };
+		C552BB85241ED92700202903 /* Consts.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB84241ED92700202903 /* Consts.m */; };
+		C552BB8E241EE5C900202903 /* StationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB8D241EE5C900202903 /* StationCell.m */; };
+		C552BB91241EEF1A00202903 /* StationDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB90241EEF1A00202903 /* StationDetailViewController.m */; };
+		C552BB94241EF77300202903 /* TrainInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB93241EF77300202903 /* TrainInfoViewController.m */; };
+		C552BB97241FC01C00202903 /* TrainStopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB96241FC01C00202903 /* TrainStopCell.m */; };
+		C552BB9A241FDC4B00202903 /* CacheManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB99241FDC4B00202903 /* CacheManager.m */; };
+		C552BB9D2420061800202903 /* StationTrainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB9C2420061800202903 /* StationTrainCell.m */; };
+		C552BBA02420253D00202903 /* FavouriteCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BB9F2420253D00202903 /* FavouriteCell.m */; };
+		C552BBA32420255900202903 /* StartScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C552BBA22420255900202903 /* StartScreenViewController.m */; };
 		C5565A37241AA81800A5EF16 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A36241AA81800A5EF16 /* AppDelegate.m */; };
-		C5565A3A241AA81800A5EF16 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A39241AA81800A5EF16 /* SceneDelegate.m */; };
-		C5565A3D241AA81800A5EF16 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A3C241AA81800A5EF16 /* FirstViewController.m */; };
-		C5565A40241AA81800A5EF16 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A3F241AA81800A5EF16 /* SecondViewController.m */; };
+		C5565A3D241AA81800A5EF16 /* CurrentTrainsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A3C241AA81800A5EF16 /* CurrentTrainsViewController.m */; };
+		C5565A40241AA81800A5EF16 /* StationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A3F241AA81800A5EF16 /* StationsViewController.m */; };
 		C5565A43241AA81800A5EF16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5565A41241AA81800A5EF16 /* Main.storyboard */; };
 		C5565A45241AA81A00A5EF16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5565A44241AA81A00A5EF16 /* Assets.xcassets */; };
 		C5565A48241AA81A00A5EF16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5565A46241AA81A00A5EF16 /* LaunchScreen.storyboard */; };
 		C5565A4B241AA81A00A5EF16 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A4A241AA81A00A5EF16 /* main.m */; };
 		C5565A55241AA81A00A5EF16 /* IrishRailLiveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A54241AA81A00A5EF16 /* IrishRailLiveTests.m */; };
+		C5E8043B241AC4190027E017 /* IRLRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C5565A64241AAD0600A5EF16 /* IRLRequestManager.m */; };
+		C5E8043F241AE42A0027E017 /* IRLXMLResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8043E241AE42A0027E017 /* IRLXMLResponseSerializer.m */; };
+		C5E80443241AEA5A0027E017 /* Station.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80442241AEA5A0027E017 /* Station.m */; };
+		C5E80446241AF19C0027E017 /* NSObject+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80445241AF19C0027E017 /* NSObject+Utils.m */; };
+		C5E8044B241AF46D0027E017 /* XMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8044A241AF46D0027E017 /* XMLParser.m */; };
+		C5E8044D241AF9BD0027E017 /* IRLRequestTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8044C241AF9BD0027E017 /* IRLRequestTypes.m */; };
+		C5E80450241AFD060027E017 /* Train.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E8044F241AFD060027E017 /* Train.m */; };
+		C5E80454241B09020027E017 /* StationData.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80453241B09020027E017 /* StationData.m */; };
+		C5E80457241B0FDF0027E017 /* StationFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = C5E80456241B0FDF0027E017 /* StationFilter.m */; };
+		FC0ACB91E2D81113E380E2DD /* Pods_IrishRailLive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D94B640DA8299B94DB6BD1A /* Pods_IrishRailLive.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,15 +57,55 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A30389BEE738880915CBC48 /* Pods-IrishRailLiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailLiveTests.release.xcconfig"; path = "Target Support Files/Pods-IrishRailLiveTests/Pods-IrishRailLiveTests.release.xcconfig"; sourceTree = "<group>"; };
+		3324A1710C9B5754ED8209CF /* Pods_IrishRailLiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrishRailLiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64CC34818654213F913E63F6 /* Pods-IrishRailLive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailLive.debug.xcconfig"; path = "Target Support Files/Pods-IrishRailLive/Pods-IrishRailLive.debug.xcconfig"; sourceTree = "<group>"; };
+		6D94B640DA8299B94DB6BD1A /* Pods_IrishRailLive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrishRailLive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C301B0EBD09DEFB3B25535EC /* Pods-IrishRailLive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailLive.release.xcconfig"; path = "Target Support Files/Pods-IrishRailLive/Pods-IrishRailLive.release.xcconfig"; sourceTree = "<group>"; };
+		C51AAD4124202AFE00161F3A /* Favourite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Favourite.h; sourceTree = "<group>"; };
+		C51AAD4224202AFE00161F3A /* Favourite.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Favourite.m; sourceTree = "<group>"; };
+		C51AAD442420496E00161F3A /* UIStoryboard+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIStoryboard+Utils.h"; sourceTree = "<group>"; };
+		C51AAD452420496E00161F3A /* UIStoryboard+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIStoryboard+Utils.m"; sourceTree = "<group>"; };
+		C51AAD4724204E9800161F3A /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		C51AAD4824204E9800161F3A /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		C51AAD4A24204F1400161F3A /* BaseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTableViewController.h; sourceTree = "<group>"; };
+		C51AAD4B24204F1400161F3A /* BaseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewController.m; sourceTree = "<group>"; };
+		C51AAD4D242050D100161F3A /* BaseChildViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChildViewController.h; sourceTree = "<group>"; };
+		C51AAD4E242050D100161F3A /* BaseChildViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChildViewController.m; sourceTree = "<group>"; };
+		C51AAD502420545B00161F3A /* BaseChildTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseChildTableViewController.h; sourceTree = "<group>"; };
+		C51AAD512420545B00161F3A /* BaseChildTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseChildTableViewController.m; sourceTree = "<group>"; };
+		C51AAD542420F28200161F3A /* SplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
+		C51AAD552420F28200161F3A /* SplashScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
+		C552BB7A241EC7D800202903 /* TrainStop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainStop.h; sourceTree = "<group>"; };
+		C552BB7B241EC7D800202903 /* TrainStop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainStop.m; sourceTree = "<group>"; };
+		C552BB7D241ECC3700202903 /* ModelTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelTypes.h; sourceTree = "<group>"; };
+		C552BB80241ED5B900202903 /* CurrentTrainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentTrainCell.h; sourceTree = "<group>"; };
+		C552BB81241ED5B900202903 /* CurrentTrainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentTrainCell.m; sourceTree = "<group>"; };
+		C552BB83241ED92700202903 /* Consts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Consts.h; sourceTree = "<group>"; };
+		C552BB84241ED92700202903 /* Consts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Consts.m; sourceTree = "<group>"; };
+		C552BB8C241EE5C900202903 /* StationCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationCell.h; sourceTree = "<group>"; };
+		C552BB8D241EE5C900202903 /* StationCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationCell.m; sourceTree = "<group>"; };
+		C552BB8F241EEF1A00202903 /* StationDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationDetailViewController.h; sourceTree = "<group>"; };
+		C552BB90241EEF1A00202903 /* StationDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationDetailViewController.m; sourceTree = "<group>"; };
+		C552BB92241EF77300202903 /* TrainInfoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainInfoViewController.h; sourceTree = "<group>"; };
+		C552BB93241EF77300202903 /* TrainInfoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainInfoViewController.m; sourceTree = "<group>"; };
+		C552BB95241FC01C00202903 /* TrainStopCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TrainStopCell.h; sourceTree = "<group>"; };
+		C552BB96241FC01C00202903 /* TrainStopCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrainStopCell.m; sourceTree = "<group>"; };
+		C552BB98241FDC4B00202903 /* CacheManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CacheManager.h; sourceTree = "<group>"; };
+		C552BB99241FDC4B00202903 /* CacheManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CacheManager.m; sourceTree = "<group>"; };
+		C552BB9B2420061800202903 /* StationTrainCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationTrainCell.h; sourceTree = "<group>"; };
+		C552BB9C2420061800202903 /* StationTrainCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationTrainCell.m; sourceTree = "<group>"; };
+		C552BB9E2420253D00202903 /* FavouriteCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FavouriteCell.h; sourceTree = "<group>"; };
+		C552BB9F2420253D00202903 /* FavouriteCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FavouriteCell.m; sourceTree = "<group>"; };
+		C552BBA12420255900202903 /* StartScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartScreenViewController.h; sourceTree = "<group>"; };
+		C552BBA22420255900202903 /* StartScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartScreenViewController.m; sourceTree = "<group>"; };
 		C5565A32241AA81800A5EF16 /* IrishRailLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrishRailLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5565A35241AA81800A5EF16 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C5565A36241AA81800A5EF16 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C5565A38241AA81800A5EF16 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		C5565A39241AA81800A5EF16 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		C5565A3B241AA81800A5EF16 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		C5565A3C241AA81800A5EF16 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		C5565A3E241AA81800A5EF16 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		C5565A3F241AA81800A5EF16 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C5565A3B241AA81800A5EF16 /* CurrentTrainsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentTrainsViewController.h; sourceTree = "<group>"; };
+		C5565A3C241AA81800A5EF16 /* CurrentTrainsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentTrainsViewController.m; sourceTree = "<group>"; };
+		C5565A3E241AA81800A5EF16 /* StationsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationsViewController.h; sourceTree = "<group>"; };
+		C5565A3F241AA81800A5EF16 /* StationsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationsViewController.m; sourceTree = "<group>"; };
 		C5565A42241AA81800A5EF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5565A44241AA81A00A5EF16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5565A47241AA81A00A5EF16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,6 +114,27 @@
 		C5565A50241AA81A00A5EF16 /* IrishRailLiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IrishRailLiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5565A54241AA81A00A5EF16 /* IrishRailLiveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrishRailLiveTests.m; sourceTree = "<group>"; };
 		C5565A56241AA81A00A5EF16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5565A63241AAD0600A5EF16 /* IRLRequestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRLRequestManager.h; sourceTree = "<group>"; };
+		C5565A64241AAD0600A5EF16 /* IRLRequestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRLRequestManager.m; sourceTree = "<group>"; };
+		C5E8043C241ACB280027E017 /* IRLRequestTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRLRequestTypes.h; sourceTree = "<group>"; };
+		C5E8043D241AE42A0027E017 /* IRLXMLResponseSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRLXMLResponseSerializer.h; sourceTree = "<group>"; };
+		C5E8043E241AE42A0027E017 /* IRLXMLResponseSerializer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRLXMLResponseSerializer.m; sourceTree = "<group>"; };
+		C5E80441241AEA5A0027E017 /* Station.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Station.h; sourceTree = "<group>"; };
+		C5E80442241AEA5A0027E017 /* Station.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Station.m; sourceTree = "<group>"; };
+		C5E80444241AF19C0027E017 /* NSObject+Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utils.h"; sourceTree = "<group>"; };
+		C5E80445241AF19C0027E017 /* NSObject+Utils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utils.m"; sourceTree = "<group>"; };
+		C5E80448241AF28F0027E017 /* IrishRailLive.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrishRailLive.pch; sourceTree = "<group>"; };
+		C5E80449241AF46D0027E017 /* XMLParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMLParser.h; sourceTree = "<group>"; };
+		C5E8044A241AF46D0027E017 /* XMLParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMLParser.m; sourceTree = "<group>"; };
+		C5E8044C241AF9BD0027E017 /* IRLRequestTypes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IRLRequestTypes.m; sourceTree = "<group>"; };
+		C5E8044E241AFD060027E017 /* Train.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Train.h; sourceTree = "<group>"; };
+		C5E8044F241AFD060027E017 /* Train.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Train.m; sourceTree = "<group>"; };
+		C5E80451241AFEED0027E017 /* Models.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Models.h; sourceTree = "<group>"; };
+		C5E80452241B09020027E017 /* StationData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationData.h; sourceTree = "<group>"; };
+		C5E80453241B09020027E017 /* StationData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationData.m; sourceTree = "<group>"; };
+		C5E80455241B0FDF0027E017 /* StationFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StationFilter.h; sourceTree = "<group>"; };
+		C5E80456241B0FDF0027E017 /* StationFilter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StationFilter.m; sourceTree = "<group>"; };
+		CFA7043C1C0D9E6D3AB62C3C /* Pods-IrishRailLiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrishRailLiveTests.debug.xcconfig"; path = "Target Support Files/Pods-IrishRailLiveTests/Pods-IrishRailLiveTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC0ACB91E2D81113E380E2DD /* Pods_IrishRailLive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,18 +150,101 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				116E7D8388E23B40973303FF /* Pods_IrishRailLiveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C51AAD3E24202ABA00161F3A /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C552BBA12420255900202903 /* StartScreenViewController.h */,
+				C552BBA22420255900202903 /* StartScreenViewController.m */,
+				C552BB9E2420253D00202903 /* FavouriteCell.h */,
+				C552BB9F2420253D00202903 /* FavouriteCell.m */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		C51AAD3F24202ACF00161F3A /* CurrentTrains */ = {
+			isa = PBXGroup;
+			children = (
+				C5565A3B241AA81800A5EF16 /* CurrentTrainsViewController.h */,
+				C5565A3C241AA81800A5EF16 /* CurrentTrainsViewController.m */,
+				C552BB80241ED5B900202903 /* CurrentTrainCell.h */,
+				C552BB81241ED5B900202903 /* CurrentTrainCell.m */,
+				C552BB92241EF77300202903 /* TrainInfoViewController.h */,
+				C552BB93241EF77300202903 /* TrainInfoViewController.m */,
+				C552BB95241FC01C00202903 /* TrainStopCell.h */,
+				C552BB96241FC01C00202903 /* TrainStopCell.m */,
+			);
+			path = CurrentTrains;
+			sourceTree = "<group>";
+		};
+		C51AAD4024202AE400161F3A /* Stations */ = {
+			isa = PBXGroup;
+			children = (
+				C5565A3E241AA81800A5EF16 /* StationsViewController.h */,
+				C5565A3F241AA81800A5EF16 /* StationsViewController.m */,
+				C552BB8C241EE5C900202903 /* StationCell.h */,
+				C552BB8D241EE5C900202903 /* StationCell.m */,
+				C552BB8F241EEF1A00202903 /* StationDetailViewController.h */,
+				C552BB90241EEF1A00202903 /* StationDetailViewController.m */,
+				C552BB9B2420061800202903 /* StationTrainCell.h */,
+				C552BB9C2420061800202903 /* StationTrainCell.m */,
+			);
+			path = Stations;
+			sourceTree = "<group>";
+		};
+		C51AAD53242054D600161F3A /* BaseViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C51AAD4724204E9800161F3A /* BaseViewController.h */,
+				C51AAD4824204E9800161F3A /* BaseViewController.m */,
+				C51AAD4A24204F1400161F3A /* BaseTableViewController.h */,
+				C51AAD4B24204F1400161F3A /* BaseTableViewController.m */,
+				C51AAD4D242050D100161F3A /* BaseChildViewController.h */,
+				C51AAD4E242050D100161F3A /* BaseChildViewController.m */,
+				C51AAD502420545B00161F3A /* BaseChildTableViewController.h */,
+				C51AAD512420545B00161F3A /* BaseChildTableViewController.m */,
+			);
+			path = BaseViewControllers;
+			sourceTree = "<group>";
+		};
+		C552BB7E241ED49400202903 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				C5E80444241AF19C0027E017 /* NSObject+Utils.h */,
+				C5E80445241AF19C0027E017 /* NSObject+Utils.m */,
+				C51AAD442420496E00161F3A /* UIStoryboard+Utils.h */,
+				C51AAD452420496E00161F3A /* UIStoryboard+Utils.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		C552BB7F241ED4A700202903 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C51AAD542420F28200161F3A /* SplashScreenViewController.h */,
+				C51AAD552420F28200161F3A /* SplashScreenViewController.m */,
+				C51AAD53242054D600161F3A /* BaseViewControllers */,
+				C51AAD3E24202ABA00161F3A /* StartScreen */,
+				C51AAD3F24202ACF00161F3A /* CurrentTrains */,
+				C51AAD4024202AE400161F3A /* Stations */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		C5565A29241AA81800A5EF16 = {
 			isa = PBXGroup;
 			children = (
 				C5565A34241AA81800A5EF16 /* IrishRailLive */,
 				C5565A53241AA81A00A5EF16 /* IrishRailLiveTests */,
 				C5565A33241AA81800A5EF16 /* Products */,
+				F25322B60B86A0606D8ABC62 /* Pods */,
+				CD72BE7844634A4453370555 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,19 +260,17 @@
 		C5565A34241AA81800A5EF16 /* IrishRailLive */ = {
 			isa = PBXGroup;
 			children = (
+				C552BB83241ED92700202903 /* Consts.h */,
+				C552BB84241ED92700202903 /* Consts.m */,
 				C5565A35241AA81800A5EF16 /* AppDelegate.h */,
 				C5565A36241AA81800A5EF16 /* AppDelegate.m */,
-				C5565A38241AA81800A5EF16 /* SceneDelegate.h */,
-				C5565A39241AA81800A5EF16 /* SceneDelegate.m */,
-				C5565A3B241AA81800A5EF16 /* FirstViewController.h */,
-				C5565A3C241AA81800A5EF16 /* FirstViewController.m */,
-				C5565A3E241AA81800A5EF16 /* SecondViewController.h */,
-				C5565A3F241AA81800A5EF16 /* SecondViewController.m */,
+				C5565A5F241AACC100A5EF16 /* Core */,
+				C552BB7F241ED4A700202903 /* UI */,
+				C552BB7E241ED49400202903 /* Utils */,
+				C5E80447241AF2690027E017 /* Supporting Files */,
 				C5565A41241AA81800A5EF16 /* Main.storyboard */,
 				C5565A44241AA81A00A5EF16 /* Assets.xcassets */,
 				C5565A46241AA81A00A5EF16 /* LaunchScreen.storyboard */,
-				C5565A49241AA81A00A5EF16 /* Info.plist */,
-				C5565A4A241AA81A00A5EF16 /* main.m */,
 			);
 			path = IrishRailLive;
 			sourceTree = "<group>";
@@ -113,6 +284,75 @@
 			path = IrishRailLiveTests;
 			sourceTree = "<group>";
 		};
+		C5565A5F241AACC100A5EF16 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				C5565A63241AAD0600A5EF16 /* IRLRequestManager.h */,
+				C5565A64241AAD0600A5EF16 /* IRLRequestManager.m */,
+				C5E80440241AEA340027E017 /* Models */,
+				C5E8043C241ACB280027E017 /* IRLRequestTypes.h */,
+				C5E8044C241AF9BD0027E017 /* IRLRequestTypes.m */,
+				C5E8043D241AE42A0027E017 /* IRLXMLResponseSerializer.h */,
+				C5E8043E241AE42A0027E017 /* IRLXMLResponseSerializer.m */,
+				C5E80449241AF46D0027E017 /* XMLParser.h */,
+				C5E8044A241AF46D0027E017 /* XMLParser.m */,
+				C552BB98241FDC4B00202903 /* CacheManager.h */,
+				C552BB99241FDC4B00202903 /* CacheManager.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		C5E80440241AEA340027E017 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C5E80451241AFEED0027E017 /* Models.h */,
+				C552BB7D241ECC3700202903 /* ModelTypes.h */,
+				C5E80441241AEA5A0027E017 /* Station.h */,
+				C5E80442241AEA5A0027E017 /* Station.m */,
+				C5E8044E241AFD060027E017 /* Train.h */,
+				C5E8044F241AFD060027E017 /* Train.m */,
+				C552BB7A241EC7D800202903 /* TrainStop.h */,
+				C552BB7B241EC7D800202903 /* TrainStop.m */,
+				C5E80452241B09020027E017 /* StationData.h */,
+				C5E80453241B09020027E017 /* StationData.m */,
+				C5E80455241B0FDF0027E017 /* StationFilter.h */,
+				C5E80456241B0FDF0027E017 /* StationFilter.m */,
+				C51AAD4124202AFE00161F3A /* Favourite.h */,
+				C51AAD4224202AFE00161F3A /* Favourite.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C5E80447241AF2690027E017 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5565A49241AA81A00A5EF16 /* Info.plist */,
+				C5E80448241AF28F0027E017 /* IrishRailLive.pch */,
+				C5565A4A241AA81A00A5EF16 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD72BE7844634A4453370555 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D94B640DA8299B94DB6BD1A /* Pods_IrishRailLive.framework */,
+				3324A1710C9B5754ED8209CF /* Pods_IrishRailLiveTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F25322B60B86A0606D8ABC62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64CC34818654213F913E63F6 /* Pods-IrishRailLive.debug.xcconfig */,
+				C301B0EBD09DEFB3B25535EC /* Pods-IrishRailLive.release.xcconfig */,
+				CFA7043C1C0D9E6D3AB62C3C /* Pods-IrishRailLiveTests.debug.xcconfig */,
+				0A30389BEE738880915CBC48 /* Pods-IrishRailLiveTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +360,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5565A59241AA81A00A5EF16 /* Build configuration list for PBXNativeTarget "IrishRailLive" */;
 			buildPhases = (
+				35738D74DCE6AB0FBE580BFF /* [CP] Check Pods Manifest.lock */,
 				C5565A2E241AA81800A5EF16 /* Sources */,
 				C5565A2F241AA81800A5EF16 /* Frameworks */,
 				C5565A30241AA81800A5EF16 /* Resources */,
+				469C6F584C7E1AC1BDFA708B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -137,6 +379,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C5565A5C241AA81A00A5EF16 /* Build configuration list for PBXNativeTarget "IrishRailLiveTests" */;
 			buildPhases = (
+				5BF0E027912B580C2431463F /* [CP] Check Pods Manifest.lock */,
 				C5565A4C241AA81A00A5EF16 /* Sources */,
 				C5565A4D241AA81A00A5EF16 /* Frameworks */,
 				C5565A4E241AA81A00A5EF16 /* Resources */,
@@ -208,16 +451,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		35738D74DCE6AB0FBE580BFF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrishRailLive-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		469C6F584C7E1AC1BDFA708B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IrishRailLive/Pods-IrishRailLive-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IrishRailLive/Pods-IrishRailLive-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IrishRailLive/Pods-IrishRailLive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BF0E027912B580C2431463F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IrishRailLiveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C5565A2E241AA81800A5EF16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5E80450241AFD060027E017 /* Train.m in Sources */,
+				C51AAD562420F28200161F3A /* SplashScreenViewController.m in Sources */,
+				C5E8044D241AF9BD0027E017 /* IRLRequestTypes.m in Sources */,
+				C5E80446241AF19C0027E017 /* NSObject+Utils.m in Sources */,
 				C5565A4B241AA81A00A5EF16 /* main.m in Sources */,
-				C5565A40241AA81800A5EF16 /* SecondViewController.m in Sources */,
+				C552BB8E241EE5C900202903 /* StationCell.m in Sources */,
+				C51AAD4924204E9800161F3A /* BaseViewController.m in Sources */,
+				C552BB97241FC01C00202903 /* TrainStopCell.m in Sources */,
+				C51AAD4324202AFE00161F3A /* Favourite.m in Sources */,
+				C552BBA02420253D00202903 /* FavouriteCell.m in Sources */,
+				C552BB85241ED92700202903 /* Consts.m in Sources */,
+				C552BB7C241EC7D800202903 /* TrainStop.m in Sources */,
+				C552BB91241EEF1A00202903 /* StationDetailViewController.m in Sources */,
+				C552BB9A241FDC4B00202903 /* CacheManager.m in Sources */,
+				C5E8043F241AE42A0027E017 /* IRLXMLResponseSerializer.m in Sources */,
+				C552BBA32420255900202903 /* StartScreenViewController.m in Sources */,
+				C5565A40241AA81800A5EF16 /* StationsViewController.m in Sources */,
+				C552BB94241EF77300202903 /* TrainInfoViewController.m in Sources */,
+				C5E80457241B0FDF0027E017 /* StationFilter.m in Sources */,
+				C5E8044B241AF46D0027E017 /* XMLParser.m in Sources */,
+				C5E80454241B09020027E017 /* StationData.m in Sources */,
+				C51AAD4C24204F1400161F3A /* BaseTableViewController.m in Sources */,
 				C5565A37241AA81800A5EF16 /* AppDelegate.m in Sources */,
-				C5565A3D241AA81800A5EF16 /* FirstViewController.m in Sources */,
-				C5565A3A241AA81800A5EF16 /* SceneDelegate.m in Sources */,
+				C51AAD4F242050D100161F3A /* BaseChildViewController.m in Sources */,
+				C5E8043B241AC4190027E017 /* IRLRequestManager.m in Sources */,
+				C5565A3D241AA81800A5EF16 /* CurrentTrainsViewController.m in Sources */,
+				C5E80443241AEA5A0027E017 /* Station.m in Sources */,
+				C552BB9D2420061800202903 /* StationTrainCell.m in Sources */,
+				C552BB82241ED5B900202903 /* CurrentTrainCell.m in Sources */,
+				C51AAD522420545B00161F3A /* BaseChildTableViewController.m in Sources */,
+				C51AAD462420496E00161F3A /* UIStoryboard+Utils.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,11 +704,15 @@
 		};
 		C5565A5A241AA81A00A5EF16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CC34818654213F913E63F6 /* Pods-IrishRailLive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XA84SH4L4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/$(TARGET_NAME).pch";
 				INFOPLIST_FILE = IrishRailLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,11 +725,15 @@
 		};
 		C5565A5B241AA81A00A5EF16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C301B0EBD09DEFB3B25535EC /* Pods-IrishRailLive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7XA84SH4L4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(TARGET_NAME)/$(TARGET_NAME).pch";
 				INFOPLIST_FILE = IrishRailLive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,6 +746,7 @@
 		};
 		C5565A5D241AA81A00A5EF16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFA7043C1C0D9E6D3AB62C3C /* Pods-IrishRailLiveTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -425,6 +767,7 @@
 		};
 		C5565A5E241AA81A00A5EF16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A30389BEE738880915CBC48 /* Pods-IrishRailLiveTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
